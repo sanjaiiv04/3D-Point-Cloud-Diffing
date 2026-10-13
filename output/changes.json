@@ -1,0 +1,23 @@
+[
+  {
+    "type": "removed",
+    "label": "object",
+    "description": "Object (~20\u00d718\u00d79 cm) was removed from (+0.03, +0.01, -0.25) m from scene center.",
+    "boxes": [
+      {
+        "scene": "A",
+        "center": [
+          2.184601508682157,
+          -2.3412121939979698,
+          20.231044870121018
+        ],
+        "extent": [
+          2.146974685365076,
+          4.4026660198929894,
+          4.713418975765851
+        ],
+        "points_key": "rem0"
+      }
+    ]
+  }
+]
