@@ -105,4 +105,4 @@ output/             # results: extracted frames, depth maps for each frame, poin
 
 ## Remarks
 Overall, I had a fun few days trying to build this thing from ground up and had sleepless nights trying to figure out why my detection was not absolutely perfect. However, I came to the conclusion that trade-offs are there for a reason and with the level of restrictions I worked with, I am extremely proud of what I have built. 
-I hope the team finds the code clean and able to run it in a single-go ( I built with the team in mind!!!).
+I hope the team finds the code clean and able to run it in a single-go ( I built with the team in mind!!!). Also, do not worry about .env file being committed. Its just handling the memory issue by setting KMP_DUPLICATE_LIB_OK=TRUE and PYTORCH_ENABLE_MPS_FALLBACK=1. These settings prevent the memory being split between the scripts and crashing the terminal. 
